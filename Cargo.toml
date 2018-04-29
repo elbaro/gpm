@@ -1,0 +1,14 @@
+[package]
+name = "gpm"
+version = "0.1.0"
+authors = ["elbaro <elbaro@github>"]
+description = "A meta package manager"
+keywords = ["apt", "apt-get", "pacman"]
+documentation = "https://docs.rs/gpm"
+repository = "https://github.com/elbaro/gpm"
+readme = "README.md"
+categories = ["api-bindings", "development-tools::build-utils"]
+license = "MIT"
+
+[dependencies]
+duct = "0.10.0"
